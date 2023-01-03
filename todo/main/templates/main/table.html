@@ -1,0 +1,14 @@
+{% extends "layout/base.html" %}
+{% load static %}
+{% load render_table from django_tables2 %}
+{% load i18n %}
+{% load bootstrap3 %}
+<!doctype html> 
+<html>
+    <head> 
+        <title>List of persons</title> 
+    </head> 
+    <body> 
+        {% render_table object_list %} 
+    </body> 
+</html>

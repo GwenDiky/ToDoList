@@ -1,0 +1,31 @@
+
+body {
+    font-size: 23px;
+    background-color: rgb(231, 228, 228);
+}
+
+a {color: black; text-decoration: none;}
+
+a:hover {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+nav {
+    float: left;
+    font-family: "Roboto Condensed";
+
+}
+
+ul li {
+    margin-bottom: 20px;
+    line-height: 5ex;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 35%;
+    text-align: justify;
+}
